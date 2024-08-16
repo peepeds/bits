@@ -1,34 +1,32 @@
-bits/stdc++.h
+# bits/stdc++.h
 
-bits/stdc++.h  is a library in cpp that contains all of STL (Standard Template Library) , but bits/stdc++.h it's self not  STL Library. 
+bits/stdc++.h is a library in cpp that contains all of STL (Standard Template Library) , but bits/stdc++.h it's self not STL Library. This repository currently only built for Mac user
 
-this is a simple tutorial to make / create bits/stdc++.h so you can use it in your mac 
+## Prerequisite
+ 1.   Make sure that developer tools is available on your Mac
+		 - on terminal type.
 
+		   `xcode-select --version`	 
+		 - if an error code occurred, its mean developer tools not include in your Mac.
 
-1. open your terminal 
-2. change the directory to root by typing : 
-- cd /
-3. change directory to developer lib by typing :
-- cd library/developer/commandlinetools/usr/include
-4. making new folder call "bits" by typing :
-- mkdir bits 
-5. change directory to bits by typing :
-- cd bits 
-6. create a file call "stdc++.h" by typing : 
-- touch stdc++,h 
-7. copy   the "stdc++.h" in my github repo and paste it to your local "stdc++.h" file , you can paste it by typing  : 
-- nano stdc++.h 
-- paste it there 
-8 exit from nano menu by click  control + x 
-9. click yes / y
+			Proceed the next step given by Mac 
+2.    Make sure that git is installed on your Mac 
+		-	on terminal type.
 
-now you can include bits/stdc++.h in your mac 
+			`git -v`
+		-  if an error code occurred, its mean developer tools not include in your Mac.
 
+			Proceed the next step given by Mac 
+		
 
-Notes : 
-if this is the first  interaction in your mac CLI / terminal , maybe sysyem ask you to run as administrator  , to bypass this warning you must typing sudo before the command , exmp  : 
-- sudo nano 
-after that please input your device password  ;)
+## Guidlines
 
-
-
+1. Change to root directory.
+   
+    `cd /`
+3. Go to developer library.
+   
+	`cd library/developer/commandlinetools/usr/include `
+5.  Clone this repository.
+   
+	`git clone https://github.com/peepeds/bits.git`
